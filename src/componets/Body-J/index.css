@@ -1,0 +1,178 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+  }
+  
+  /* Heading Styles */
+  
+  .heading {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 24px;
+      line-height: 48px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 18px;
+      line-height: 36px;
+    }
+  }
+  
+  /* Paragraph Styles */
+  
+  .paragraph {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .paragraph {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .paragraph {
+      font-size: 14px;
+    }
+  }
+  
+  /* Card Title Styles */
+  
+  .cardTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card Styles */
+  
+  .cardOf3page {
+    width: 30vw;
+    margin-top: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardOf3page {
+      width: 45vw;
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardOf3page {
+      width: 90vw;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Subtitle Styles */
+  
+  .subTitle {
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .subTitle {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .subTitle {
+      font-size: 12px;
+    }
+  }
+  
+  /* Subparagraph Styles */
+  
+  .subParagraph {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .subParagraph {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .subParagraph {
+      font-size: 10px;
+    }
+  }
+  
+  /* Image Styles */
+  
+  .imgClass {
+    width: 60vw;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.3s ease;
+  }
+  
+  .imgClass:hover {
+    width: 65vw;
+  }
+  
+  @media (max-width: 768px) {
+    .imgClass {
+      width: 80vw;
+    }
+    
+    .imgClass:hover {
+      width: 85vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .imgClass {
+      width: 90vw;
+    }
+    
+    .imgClass:hover {
+      width: 95vw;
+    }
+  }
+  
+  /* Container Styles */
+  
+  .Container-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .sizeDecreas{
+    width: 55%;
+  }
+  
+  

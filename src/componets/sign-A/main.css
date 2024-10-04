@@ -1,0 +1,156 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+  }
+  
+  /* Header Styles */
+  
+  .firstheadingBox {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+  }
+  
+  .firstParagraph {
+    font-size: 27px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .firstContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Sign Up Page Styles */
+  
+  .signOfPage {
+    width: 80%;
+    height: 80vh;
+    border-style: solid;
+    border-width: 1px;
+    margin: 40px auto;
+  }
+  
+  .main-containerrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signHeading {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .inputFirstName {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 50%;
+    margin: 25px;
+    
+  }
+  
+  .signNameBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .styleOfPassword {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+  .registerStyle {
+    width: 130px;
+    height: 40px;
+    background: rgba(24, 160, 251, 1);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    text-align: center;
+    color: white;
+    margin-left: 57px;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .firstheadingBox {
+      font-size: 36px;
+    }
+    
+    .signOfPage {
+      width: 90%;
+      height: 70vh;
+    }
+    
+    .inputFirstName {
+      padding: 15px;
+    }
+    
+    .signNameBox {
+      flex-direction: column;
+    }
+    
+    .styleOfPassword {
+      margin: 15px;
+    }
+    
+    .registerStyle {
+      margin-left: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .firstheadingBox {
+      font-size: 24px;
+    }
+    
+    .signOfPage {
+      width: 95%;
+      height: 60vh;
+    }
+    
+    .inputFirstName {
+      padding: 10px;
+    }
+    
+    .signNameBox {
+      margin-top: 10px;
+    }
+    
+    .styleOfPassword {
+      margin: 10px;
+    }
+    
+    .registerStyle {
+      margin-left: 15px;
+    }
+  }
+  
+  
+  
+ 

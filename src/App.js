@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+import Frontage from "./componets/frontpage"
+import Bodyc from "./componets/Body_C"
+import Bodyj from "./componets/Body-J"
+import Bodyl from "./componets/Body-L"
+import SignA from "./componets/sign-A"
+import Footer from "./componets/Footer"
+import Header from "./componets/HeaderSection"
+const App=()=>(
+  <div className="bg-container">
+    <Header/>
+ < Frontage />
+  <Bodyc/>
+  <Bodyj/>
+  <Bodyl/>
+  <SignA/>
+  <Footer/>
+  
+  </div>
+)
+export default App

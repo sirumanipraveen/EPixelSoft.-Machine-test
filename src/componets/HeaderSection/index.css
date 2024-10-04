@@ -1,0 +1,151 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+  }
+  
+  /* Header Styles */
+  
+  .logos {
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+
+  }
+  
+  .headerElements {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  .headerElementArrROw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .RegisterLocatedFooter {
+    width: 120px;
+    height: 35px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    background: rgba(24, 160, 251, 1);
+    color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .loginLocatedFooter {
+    width: 120px;
+    height: 35px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    background: transparent;
+    color:white;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100vw;
+    background-color:darkslategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .logos {
+      font-size: 16px;
+    }
+    
+    .headerElements {
+      font-size: 14px;
+      padding-left: 15px;
+      padding-top: 15px;
+    }
+    
+    .RegisterLocatedFooter {
+      width: 100px;
+      height: 30px;
+      font-size: 14px;
+    }
+    
+    .loginLocatedFooter {
+      width: 100px;
+      height: 30px;
+      font-size: 14px;
+    }
+    
+    .main-container {
+      height: 10vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logos {
+      font-size: 14px;
+    }
+    
+    .headerElements {
+      font-size: 12px;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    
+    .RegisterLocatedFooter {
+      width: 80px;
+      height: 25px;
+      font-size: 12px;
+    }
+    
+    .loginLocatedFooter {
+      width: 80px;
+      height: 25px;
+      font-size: 12px;
+    }
+    
+    .main-container {
+      height: 8vh;
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  

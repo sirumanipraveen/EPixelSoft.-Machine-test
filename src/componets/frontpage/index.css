@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+  }
+  
+
+  
+  .bgImg {
+    background-image: url("https://s3-alpha-sig.figma.com/img/9a0f/235b/083f8069df6b70482aa1c27088a8f0c5?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U1M4e5sxyReAK1RY9mjaJ4fhjVTnDdY8pytKxRv23EuaAO6xQgTQ1PENFVJFDUuHuN9TnDtMRGZwQ9DZTCPP572BuiLX5GfLkjGnDVsEyn5X~sJPXWP4SfMkllIaHuu1NkXtJ~tJ2p17UXW7A4jtkDf-RrsNuC3QWYBY8z4b8YQpEUhjQuZGzlHYyQJlMhtq425L8Nru~w7PDnOIrXFNLglRKIqx46FREPKE1dzGb2C~IOodRdEHudyqD5varhvUt~Ll0bsknwyFtoMnjwRkj~P93AAvdHXceVFF4JUdzyM7-IoqQW5egmO~KB7fB48a4eZsfBuj7SYwLLHNvJaByQ__");;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Heading Styles */
+  
+  .headingFrontPage {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: white;
+    width: 80%;
+  }
+  
+  /* Join Button Styles */
+  
+  .JoinButton {
+    width: 150px;
+    height: 40px;
+    background: rgba(24, 160, 251, 1);
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .bgImg {
+      height: 80vh;
+    }
+    
+    .headingFrontPage {
+      font-size: 30px;
+      line-height: 50px;
+    }
+    
+    .JoinButton {
+      width: 120px;
+      height: 35px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bgImg {
+      height: 60vh;
+    }
+    
+    .headingFrontPage {
+      font-size: 24px;
+      line-height: 40px;
+    }
+    
+    .JoinButton {
+      width: 100px;
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+  
+  
+  
+  
